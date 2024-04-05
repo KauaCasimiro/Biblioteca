@@ -29,14 +29,15 @@ namespace Biblioteca
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaDeLogin));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.nomeTXT = new System.Windows.Forms.TextBox();
             this.senhaTXT = new System.Windows.Forms.TextBox();
             this.Enviar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.sair = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +47,7 @@ namespace Biblioteca
             this.label1.Location = new System.Drawing.Point(187, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 19);
+            this.label1.Size = new System.Drawing.Size(65, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
             // 
@@ -56,7 +57,7 @@ namespace Biblioteca
             this.label2.Location = new System.Drawing.Point(56, 82);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 19);
+            this.label2.Size = new System.Drawing.Size(65, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nome:";
             // 
@@ -66,7 +67,7 @@ namespace Biblioteca
             this.label3.Location = new System.Drawing.Point(56, 175);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 19);
+            this.label3.Size = new System.Drawing.Size(76, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Senha:";
             // 
@@ -75,7 +76,7 @@ namespace Biblioteca
             this.nomeTXT.Location = new System.Drawing.Point(160, 79);
             this.nomeTXT.Margin = new System.Windows.Forms.Padding(4);
             this.nomeTXT.Name = "nomeTXT";
-            this.nomeTXT.Size = new System.Drawing.Size(148, 26);
+            this.nomeTXT.Size = new System.Drawing.Size(148, 31);
             this.nomeTXT.TabIndex = 3;
             this.nomeTXT.TextChanged += new System.EventHandler(this.nome_TextChanged);
             // 
@@ -84,7 +85,7 @@ namespace Biblioteca
             this.senhaTXT.Location = new System.Drawing.Point(160, 172);
             this.senhaTXT.Margin = new System.Windows.Forms.Padding(4);
             this.senhaTXT.Name = "senhaTXT";
-            this.senhaTXT.Size = new System.Drawing.Size(148, 26);
+            this.senhaTXT.Size = new System.Drawing.Size(148, 31);
             this.senhaTXT.TabIndex = 4;
             // 
             // Enviar
@@ -98,14 +99,6 @@ namespace Biblioteca
             this.Enviar.UseVisualStyleBackColor = true;
             this.Enviar.Click += new System.EventHandler(this.Enviar_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(425, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 160);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // sair
             // 
             this.sair.Location = new System.Drawing.Point(260, 232);
@@ -117,11 +110,21 @@ namespace Biblioteca
             this.sair.UseVisualStyleBackColor = true;
             this.sair.Click += new System.EventHandler(this.sair_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(387, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(348, 319);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // TelaDeLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 296);
+            this.ClientSize = new System.Drawing.Size(739, 331);
             this.ControlBox = false;
             this.Controls.Add(this.sair);
             this.Controls.Add(this.pictureBox1);

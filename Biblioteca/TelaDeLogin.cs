@@ -19,8 +19,8 @@ namespace Biblioteca
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-            String nome = "DW";
-            String senha = "123";
+            string nome = "DW";
+            string senha = "123456";
 
             
 
