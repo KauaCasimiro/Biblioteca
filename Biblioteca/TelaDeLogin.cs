@@ -17,32 +17,27 @@ namespace Biblioteca
             InitializeComponent();
         }
 
-        private void Enviar_Click(object sender, EventArgs e)
+        private void enviarBT_Click(object sender, EventArgs e)
         {
             string nome = "DW";
-            string senha = "123456";
+            string senha = "123";
 
-            
-
-            if (nomeTXT.Text != nome && senhaTXT.Text != senha)
+            if (nomeTB.Text != nome || senhaTB.Text != senha)
             {
-                MessageBox.Show("Usuario ou Senha Incorreto!");
+                MessageBox.Show("Usuario ou senha incorretos");
+                nomeTB.Clear();
+                senhaTB.Clear();
             }
             else
             {
                 MessageBox.Show("Bem-Vindo " + nome + "!");
-                this.Hide();
                 Form1 form = new Form1();
+                this.Hide();
                 form.Show();
             }
         }
 
-        private void nome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sair_Click(object sender, EventArgs e)
+        private void sairBT_Click(object sender, EventArgs e)
         {
             this.Close();
         }

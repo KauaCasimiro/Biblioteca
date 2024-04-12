@@ -20,3 +20,5 @@ D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.c
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+E:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+D:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png

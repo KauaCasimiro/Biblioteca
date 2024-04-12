@@ -36,10 +36,9 @@ namespace Biblioteca
             // 
             // barra
             // 
-            this.barra.Location = new System.Drawing.Point(-8, -8);
-            this.barra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.barra.Location = new System.Drawing.Point(-14, -12);
             this.barra.Name = "barra";
-            this.barra.Size = new System.Drawing.Size(287, 43);
+            this.barra.Size = new System.Drawing.Size(430, 77);
             this.barra.TabIndex = 0;
             // 
             // timer1
@@ -49,12 +48,11 @@ namespace Biblioteca
             // 
             // BarraDeProgresso
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 28);
+            this.ClientSize = new System.Drawing.Size(405, 63);
             this.ControlBox = false;
             this.Controls.Add(this.barra);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "BarraDeProgresso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
