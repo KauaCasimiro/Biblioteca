@@ -31,7 +31,11 @@ namespace Biblioteca
             else
             {
                 MessageBox.Show("Bem-Vindo " + nome + "!");
+<<<<<<< HEAD
+                MDIParent1 form = new MDIParent1();
+=======
                 Form1 form = new Form1();
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                 this.Hide();
                 form.Show();
             }

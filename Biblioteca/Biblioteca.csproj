@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -57,11 +58,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bibliotecaBDDataSet.xsd</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Livro.cs">
+=======
     <Compile Include="Form1.cs">
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Livro.Designer.cs">
+      <DependentUpon>Livro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
@@ -85,6 +96,12 @@
     <EmbeddedResource Include="BarraDeProgresso.resx">
       <DependentUpon>BarraDeProgresso.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Livro.resx">
+      <DependentUpon>Livro.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,14 +138,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <None Include="Resources\Bibiloteca Digital LOG.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+=======
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
     <Content Include="bibliotecaBD.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+<<<<<<< HEAD
+=======
   <ItemGroup>
     <None Include="Resources\Bibiloteca Digital LOG.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
