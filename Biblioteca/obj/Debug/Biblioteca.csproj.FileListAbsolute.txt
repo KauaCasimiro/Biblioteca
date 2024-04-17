@@ -22,6 +22,7 @@ D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
 E:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
 D:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+<<<<<<< HEAD
 C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\bibliotecaBD.accdb
 C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
 C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
@@ -51,3 +52,5 @@ F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.c
 F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
 F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+=======
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89

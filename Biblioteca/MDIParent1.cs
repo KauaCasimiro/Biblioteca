@@ -68,11 +68,19 @@ namespace Biblioteca
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,6 +110,7 @@ namespace Biblioteca
                 childForm.Close();
             }
         }
+<<<<<<< HEAD
 
         private void toolTip_Popup(object sender, PopupEventArgs e)
         {
@@ -119,5 +128,7 @@ namespace Biblioteca
             livro.MdiParent = this;
             livro.Show();
         }
+=======
+>>>>>>> 17b874a9d8052331e603a18144357ea42872db89
     }
 }
