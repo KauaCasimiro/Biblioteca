@@ -29,108 +29,103 @@ namespace Biblioteca
         /// </summary>
         private void InitializeComponent()
         {
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.nomeTXT = new System.Windows.Forms.TextBox();
-            this.senhaTXT = new System.Windows.Forms.TextBox();
-            this.Enviar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.sair = new System.Windows.Forms.Button();
+            this.enviarBT = new System.Windows.Forms.Button();
+            this.sairBT = new System.Windows.Forms.Button();
+            this.nomeTB = new System.Windows.Forms.TextBox();
+            this.senhaTB = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Biblioteca.Properties.Resources.Bibiloteca_Digital_LOG;
+            this.pictureBox1.Location = new System.Drawing.Point(422, -3);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(364, 306);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(187, 19);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(180, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 19);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 1;
             this.label1.Text = "Login";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 82);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(65, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 19);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Nome:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(56, 175);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(56, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 19);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 3;
             this.label3.Text = "Senha:";
             // 
-            // nomeTXT
+            // enviarBT
             // 
-            this.nomeTXT.Location = new System.Drawing.Point(160, 79);
-            this.nomeTXT.Margin = new System.Windows.Forms.Padding(4);
-            this.nomeTXT.Name = "nomeTXT";
-            this.nomeTXT.Size = new System.Drawing.Size(148, 26);
-            this.nomeTXT.TabIndex = 3;
-            this.nomeTXT.TextChanged += new System.EventHandler(this.nome_TextChanged);
+            this.enviarBT.Location = new System.Drawing.Point(69, 243);
+            this.enviarBT.Name = "enviarBT";
+            this.enviarBT.Size = new System.Drawing.Size(86, 29);
+            this.enviarBT.TabIndex = 4;
+            this.enviarBT.Text = "Enviar";
+            this.enviarBT.UseVisualStyleBackColor = true;
+            this.enviarBT.Click += new System.EventHandler(this.enviarBT_Click);
             // 
-            // senhaTXT
+            // sairBT
             // 
-            this.senhaTXT.Location = new System.Drawing.Point(160, 172);
-            this.senhaTXT.Margin = new System.Windows.Forms.Padding(4);
-            this.senhaTXT.Name = "senhaTXT";
-            this.senhaTXT.Size = new System.Drawing.Size(148, 26);
-            this.senhaTXT.TabIndex = 4;
+            this.sairBT.Location = new System.Drawing.Point(277, 243);
+            this.sairBT.Name = "sairBT";
+            this.sairBT.Size = new System.Drawing.Size(86, 29);
+            this.sairBT.TabIndex = 5;
+            this.sairBT.Text = "Sair";
+            this.sairBT.UseVisualStyleBackColor = true;
+            this.sairBT.Click += new System.EventHandler(this.sairBT_Click);
             // 
-            // Enviar
+            // nomeTB
             // 
-            this.Enviar.Location = new System.Drawing.Point(77, 232);
-            this.Enviar.Margin = new System.Windows.Forms.Padding(4);
-            this.Enviar.Name = "Enviar";
-            this.Enviar.Size = new System.Drawing.Size(112, 34);
-            this.Enviar.TabIndex = 5;
-            this.Enviar.Text = "Enviar";
-            this.Enviar.UseVisualStyleBackColor = true;
-            this.Enviar.Click += new System.EventHandler(this.Enviar_Click);
+            this.nomeTB.Location = new System.Drawing.Point(144, 64);
+            this.nomeTB.Name = "nomeTB";
+            this.nomeTB.Size = new System.Drawing.Size(133, 26);
+            this.nomeTB.TabIndex = 6;
             // 
-            // pictureBox1
+            // senhaTB
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(425, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 160);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // sair
-            // 
-            this.sair.Location = new System.Drawing.Point(260, 232);
-            this.sair.Margin = new System.Windows.Forms.Padding(4);
-            this.sair.Name = "sair";
-            this.sair.Size = new System.Drawing.Size(112, 34);
-            this.sair.TabIndex = 7;
-            this.sair.Text = "Sair";
-            this.sair.UseVisualStyleBackColor = true;
-            this.sair.Click += new System.EventHandler(this.sair_Click);
+            this.senhaTB.Location = new System.Drawing.Point(144, 164);
+            this.senhaTB.Name = "senhaTB";
+            this.senhaTB.Size = new System.Drawing.Size(133, 26);
+            this.senhaTB.TabIndex = 7;
             // 
             // TelaDeLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 296);
+            this.ClientSize = new System.Drawing.Size(785, 304);
             this.ControlBox = false;
-            this.Controls.Add(this.sair);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.Enviar);
-            this.Controls.Add(this.senhaTXT);
-            this.Controls.Add(this.nomeTXT);
+            this.Controls.Add(this.senhaTB);
+            this.Controls.Add(this.nomeTB);
+            this.Controls.Add(this.sairBT);
+            this.Controls.Add(this.enviarBT);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TelaDeLogin";
@@ -143,13 +138,13 @@ namespace Biblioteca
 
         #endregion
 
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox nomeTXT;
-        private System.Windows.Forms.TextBox senhaTXT;
-        private System.Windows.Forms.Button Enviar;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button sair;
+        private System.Windows.Forms.Button enviarBT;
+        private System.Windows.Forms.Button sairBT;
+        private System.Windows.Forms.TextBox nomeTB;
+        private System.Windows.Forms.TextBox senhaTB;
     }
 }

@@ -20,3 +20,34 @@ D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.c
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
 D:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+E:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+D:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\bibliotecaBD.accdb
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.BarraDeProgresso.resources
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.MDIParent1.resources
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.TelaDeLogin.resources
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\DW\source\repos\KauaCasimiro\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+F:\C#\repos\Biblioteca\Biblioteca\bin\Debug\bibliotecaBD.accdb
+F:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Resources\Bibiloteca Digital LOG.png
+F:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+F:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+F:\C#\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.BarraDeProgresso.resources
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Livro.resources
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.MDIParent1.resources
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.TelaDeLogin.resources
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+F:\C#\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
