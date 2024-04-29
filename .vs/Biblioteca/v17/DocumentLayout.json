@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\DW\\source\\repos\\KauaCasimiro\\Biblioteca\\",
+=======
+  "WorkspaceRootPath": "C:\\Users\\DW\\source\\repos\\KauaCasimiro\\Biblioteca\\Biblioteca\\",
+>>>>>>> ce0855e87959a240eaa7b5f2640d6e9b96b57030
   "Documents": [],
   "DocumentGroupContainers": [
     {
