@@ -1,7 +1,7 @@
 ﻿
 namespace Biblioteca
 {
-    partial class BarraDeProgresso
+    partial class barraDeProgresso
     {
         /// <summary>
         /// Required designer variable.
@@ -36,9 +36,9 @@ namespace Biblioteca
             // 
             // barra
             // 
-            this.barra.Location = new System.Drawing.Point(-14, -12);
+            this.barra.Location = new System.Drawing.Point(0, -2);
             this.barra.Name = "barra";
-            this.barra.Size = new System.Drawing.Size(430, 77);
+            this.barra.Size = new System.Drawing.Size(335, 55);
             this.barra.TabIndex = 0;
             // 
             // timer1
@@ -46,14 +46,14 @@ namespace Biblioteca
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // BarraDeProgresso
+            // barraDeProgresso
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 63);
+            this.ClientSize = new System.Drawing.Size(334, 51);
             this.ControlBox = false;
             this.Controls.Add(this.barra);
-            this.Name = "BarraDeProgresso";
+            this.Name = "barraDeProgresso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 

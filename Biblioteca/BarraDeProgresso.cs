@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class BarraDeProgresso : Form
+    public partial class barraDeProgresso : Form
     {
-        public BarraDeProgresso()
+        public barraDeProgresso()
         {
             InitializeComponent();
         }
@@ -21,15 +21,16 @@ namespace Biblioteca
         {
             if (barra.Value < 100)
             {
-                barra.Value++;
+                barra.Value = barra.Value += 1;
+            }
 
-                if (barra.Value == 100)
-                {
-                    TelaDeLogin login = new TelaDeLogin();
-                    this.Hide();
-                    MessageBox.Show("Bem-Vindo!");
-                    login.Show();
-                }
+            if (barra.Value == 100)
+            {
+                timer1.Stop();
+                this.Hide();
+                MessageBox.Show("Bem-Vindo!");
+                telaDeLogin telaDeLogin = new telaDeLogin();
+                telaDeLogin.Show();
             }
         }
     }

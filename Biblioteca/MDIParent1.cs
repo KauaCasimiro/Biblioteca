@@ -68,19 +68,12 @@ namespace Biblioteca
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
+            
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             
-=======
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -110,25 +103,93 @@ namespace Biblioteca
                 childForm.Close();
             }
         }
-<<<<<<< HEAD
 
-        private void toolTip_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
-
-        private void cadastroLocatárioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cadastroLivroToolStripMenuItem_Click(object sender, EventArgs e)
+        private void livroToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Livro livro = new Livro();
             livro.MdiParent = this;
             livro.Show();
+
         }
-=======
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
+
+        private void funcionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.MdiParent = this;
+            funcionario.Show();
+        }
+
+        private void locatárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Locatario locatario = new Locatario();
+            locatario.MdiParent = this;
+            locatario.Show();
+        }
+
+        private void editoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Editora editora = new Editora();
+            editora.MdiParent = this;
+            editora.Show();
+        }
+
+        private void locaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Locação locacao = new Locação();
+            locacao.MdiParent = this;
+            locacao.Show();
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (saveFileDialog1.ShowDialog()==DialogResult.OK)
+                {
+                    if (System.IO.File.Exists(saveFileDialog1.FileName))
+                    {
+                        System.IO.File.Delete(saveFileDialog1.FileName);
+                    }
+
+                    System.IO.File.Copy(Application.StartupPath.ToString() + "\\bibliotecaBD.accdb", saveFileDialog1.FileName);
+                    MessageBox.Show("Backup realizado com Sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+                else
+                {
+                    MessageBox.Show("Operação Cancelada", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            catch (Exception error)
+            {
+                MessageBox.Show("Erro ao realizar essa operação " + error);
+            }
+        }
+
+        private void restaurarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    if (System.IO.File.Exists(Application.StartupPath.ToString() + "\\bibliotecaBD.accdb"))
+                    {
+                        System.IO.File.Delete(Application.StartupPath.ToString() + "\\bibliotecaBD.accdb");
+                    }
+
+                    System.IO.File.Copy(openFileDialog1.FileName, Application.StartupPath.ToString() + "\\bibliotecaBD.accdb");
+                    MessageBox.Show("Restauração realizada com Sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Operação Cancelada", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Erro" + error);
+            }
+        }
     }
 }

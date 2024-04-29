@@ -1793,11 +1793,7 @@ namespace Biblioteca {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-<<<<<<< HEAD
             public LivroRow AddLivroRow(EditoraRow parentEditoraRowByEditoraLivro, string Titulo, string Edicao, System.DateTime Ano, string ISBN, string Localizacao, string Assunto, string Classificacao, string Colecao, bool Tombo, string Capa, string Resenha, string Autores, string Comentarios) {
-=======
-            public LivroRow AddLivroRow(EditoraRow parentEditoraRowByEditoraLivro, string Titulo, string Edicao, string Ano, string ISBN, string Localizacao, string Assunto, string Classificacao, string Colecao, bool Tombo, string Capa, string Resenha, string Autores, string Comentarios) {
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                 LivroRow rowLivroRow = ((LivroRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1875,11 +1871,7 @@ namespace Biblioteca {
                 base.Columns.Add(this.columnTitulo);
                 this.columnEdicao = new global::System.Data.DataColumn("Edicao", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnEdicao);
-<<<<<<< HEAD
                 this.columnAno = new global::System.Data.DataColumn("Ano", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
-=======
-                this.columnAno = new global::System.Data.DataColumn("Ano", typeof(string), null, global::System.Data.MappingType.Element);
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                 base.Columns.Add(this.columnAno);
                 this.columnISBN = new global::System.Data.DataColumn("ISBN", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnISBN);
@@ -1910,10 +1902,6 @@ namespace Biblioteca {
                 this.columnID.Unique = true;
                 this.columnTitulo.MaxLength = 255;
                 this.columnEdicao.MaxLength = 255;
-<<<<<<< HEAD
-=======
-                this.columnAno.MaxLength = 255;
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                 this.columnISBN.MaxLength = 255;
                 this.columnLocalizacao.MaxLength = 255;
                 this.columnAssunto.MaxLength = 255;
@@ -3741,17 +3729,10 @@ namespace Biblioteca {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-<<<<<<< HEAD
             public System.DateTime Ano {
                 get {
                     try {
                         return ((global::System.DateTime)(this[this.tableLivro.AnoColumn]));
-=======
-            public string Ano {
-                get {
-                    try {
-                        return ((string)(this[this.tableLivro.AnoColumn]));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("O valor da coluna \'Ano\' na tabela \'Livro\' é DBNull.", e);
@@ -6480,11 +6461,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Edicao", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Edicao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Ano", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, true, null));
-<<<<<<< HEAD
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Ano", global::System.Data.OleDb.OleDbType.Date, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, false, null));
-=======
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Ano", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, false, null));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ISBN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ISBN", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Localizacao", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Localizacao", global::System.Data.DataRowVersion.Original, true, null));
@@ -6510,11 +6487,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ID_Editora", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ID_Editora", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Titulo", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Titulo", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Edicao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Current, false, null));
-<<<<<<< HEAD
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Ano", global::System.Data.OleDb.OleDbType.Date, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Current, false, null));
-=======
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Ano", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Current, false, null));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ISBN", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Localizacao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Localizacao", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Assunto", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Assunto", global::System.Data.DataRowVersion.Current, false, null));
@@ -6532,11 +6505,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ID_Editora", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ID_Editora", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Titulo", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Titulo", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Edicao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Current, false, null));
-<<<<<<< HEAD
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Ano", global::System.Data.OleDb.OleDbType.Date, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Current, false, null));
-=======
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Ano", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Current, false, null));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("ISBN", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Localizacao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Localizacao", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Assunto", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Assunto", global::System.Data.DataRowVersion.Current, false, null));
@@ -6555,11 +6524,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Edicao", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Edicao", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Edicao", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Ano", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, true, null));
-<<<<<<< HEAD
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Ano", global::System.Data.OleDb.OleDbType.Date, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, false, null));
-=======
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Ano", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ano", global::System.Data.DataRowVersion.Original, false, null));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_ISBN", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Original, true, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_ISBN", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "ISBN", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("IsNull_Localizacao", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Localizacao", global::System.Data.DataRowVersion.Original, true, null));
@@ -6653,11 +6618,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-<<<<<<< HEAD
         public virtual int Delete(int Original_ID, global::System.Nullable<int> Original_ID_Editora, string Original_Titulo, string Original_Edicao, global::System.Nullable<global::System.DateTime> Original_Ano, string Original_ISBN, string Original_Localizacao, string Original_Assunto, string Original_Classificacao, string Original_Colecao, bool Original_Tombo, string Original_Capa, string Original_Autores) {
-=======
-        public virtual int Delete(int Original_ID, global::System.Nullable<int> Original_ID_Editora, string Original_Titulo, string Original_Edicao, string Original_Ano, string Original_ISBN, string Original_Localizacao, string Original_Assunto, string Original_Classificacao, string Original_Colecao, bool Original_Tombo, string Original_Capa, string Original_Autores) {
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_ID));
             if ((Original_ID_Editora.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
@@ -6683,7 +6644,6 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                 this.Adapter.DeleteCommand.Parameters[5].Value = ((object)(0));
                 this.Adapter.DeleteCommand.Parameters[6].Value = ((string)(Original_Edicao));
             }
-<<<<<<< HEAD
             if ((Original_Ano.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(0));
                 this.Adapter.DeleteCommand.Parameters[8].Value = ((System.DateTime)(Original_Ano.Value));
@@ -6692,16 +6652,6 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                 this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
-=======
-            if ((Original_Ano == null)) {
-                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[8].Value = ((string)(Original_Ano));
-            }
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             if ((Original_ISBN == null)) {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[10].Value = global::System.DBNull.Value;
@@ -6780,11 +6730,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-<<<<<<< HEAD
         public virtual int Insert(global::System.Nullable<int> ID_Editora, string Titulo, string Edicao, global::System.Nullable<global::System.DateTime> Ano, string ISBN, string Localizacao, string Assunto, string Classificacao, string Colecao, bool Tombo, string Capa, string Resenha, string Autores, string Comentarios) {
-=======
-        public virtual int Insert(global::System.Nullable<int> ID_Editora, string Titulo, string Edicao, string Ano, string ISBN, string Localizacao, string Assunto, string Classificacao, string Colecao, bool Tombo, string Capa, string Resenha, string Autores, string Comentarios) {
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             if ((ID_Editora.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = ((int)(ID_Editora.Value));
             }
@@ -6803,19 +6749,11 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             else {
                 this.Adapter.InsertCommand.Parameters[2].Value = ((string)(Edicao));
             }
-<<<<<<< HEAD
             if ((Ano.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[3].Value = ((System.DateTime)(Ano.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
-=======
-            if ((Ano == null)) {
-                this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[3].Value = ((string)(Ano));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             }
             if ((ISBN == null)) {
                 this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
@@ -6896,11 +6834,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                     global::System.Nullable<int> ID_Editora, 
                     string Titulo, 
                     string Edicao, 
-<<<<<<< HEAD
                     global::System.Nullable<global::System.DateTime> Ano, 
-=======
-                    string Ano, 
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                     string ISBN, 
                     string Localizacao, 
                     string Assunto, 
@@ -6915,11 +6849,7 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                     global::System.Nullable<int> Original_ID_Editora, 
                     string Original_Titulo, 
                     string Original_Edicao, 
-<<<<<<< HEAD
                     global::System.Nullable<global::System.DateTime> Original_Ano, 
-=======
-                    string Original_Ano, 
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
                     string Original_ISBN, 
                     string Original_Localizacao, 
                     string Original_Assunto, 
@@ -6946,19 +6876,11 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
             else {
                 this.Adapter.UpdateCommand.Parameters[2].Value = ((string)(Edicao));
             }
-<<<<<<< HEAD
             if ((Ano.HasValue == true)) {
                 this.Adapter.UpdateCommand.Parameters[3].Value = ((System.DateTime)(Ano.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
-=======
-            if ((Ano == null)) {
-                this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[3].Value = ((string)(Ano));
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             }
             if ((ISBN == null)) {
                 this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
@@ -7040,7 +6962,6 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                 this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(0));
                 this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Original_Edicao));
             }
-<<<<<<< HEAD
             if ((Original_Ano.HasValue == true)) {
                 this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(0));
                 this.Adapter.UpdateCommand.Parameters[22].Value = ((System.DateTime)(Original_Ano.Value));
@@ -7049,16 +6970,6 @@ namespace Biblioteca.bibliotecaBDDataSetTableAdapters {
                 this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
             }
-=======
-            if ((Original_Ano == null)) {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[22].Value = ((string)(Original_Ano));
-            }
->>>>>>> 17b874a9d8052331e603a18144357ea42872db89
             if ((Original_ISBN == null)) {
                 this.Adapter.UpdateCommand.Parameters[23].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[24].Value = global::System.DBNull.Value;

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
@@ -16,7 +16,7 @@ namespace Biblioteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BarraDeProgresso());
+            Application.Run(new MDIParent1());
         }
     }
 }
